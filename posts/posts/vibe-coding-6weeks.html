@@ -29,13 +29,14 @@
     <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js"></script>
 </head>
 <body>
-    <!-- 新增：返回首页按钮，和你朋友的博客样式一致 -->
-    <div style="max-width: 800px; margin: 0 auto; padding: 1rem 2rem;">
-        <a href="/" style="color: #3498db; text-decoration: none;">← 返回首页</a>
+    <!-- 修复：返回首页按钮（确保能显示） -->
+    <div style="max-width: 800px; margin: 20px auto; padding: 0 2rem;">
+        <a href="/" style="color: #3498db; text-decoration: none; font-size: 16px;">← 返回首页</a>
     </div>
 
     <article class="markdown-body" id="content"></article>
 
+    <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js"></script>
     <script>
         // 自动获取当前文章的md内容并渲染
         const mdPath = window.location.pathname.replace('.html', '.md');
@@ -53,4 +54,3 @@
             });
     </script>
 </body>
-</html>
