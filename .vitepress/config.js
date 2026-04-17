@@ -24,7 +24,13 @@ export default defineConfig({
       "/thinking/": [
         {
           text: "工程思考",
-          items: [{ text: "工程思考", link: "/thinking/" }]
+          items: [
+            { text: "工程思考", link: "/thinking/" },
+            {
+              text: "工程思考｜Vibe Coding：不是AI写代码，是你在指挥一个工程系统",
+              link: "/thinking/vibe-coding-engineering-system"
+            }
+          ]
         }
       ]
     }

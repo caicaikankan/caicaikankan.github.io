@@ -1,3 +1,3 @@
 # 工程思考
 
-（占位：这里是工程思考的首页。后续你可以在 thinking/ 目录下新增文章，并在侧边栏中补充链接。）
+- [工程思考｜Vibe Coding：不是AI写代码，是你在指挥一个工程系统](/thinking/vibe-coding-engineering-system)
