@@ -47,6 +47,8 @@
 1. 构建项目：`npm run docs:build`
 2. 提交更改：`git add . && git commit -m "添加新文章：[文章标题]"`
 3. 推送到 GitHub：`git push origin main`
+   - 如果推送失败（网络问题），请再次尝试
+   - 如果多次尝试后仍失败，请手动执行推送命令：`git push origin main`
 4. 等待 GitHub Actions 自动部署完成
 
 ## 5. 示例
