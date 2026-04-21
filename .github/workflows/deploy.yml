@@ -1,4 +1,4 @@
-name: Deploy VitePress to GitHub Pages
+name: Deploy VitePress to GitHub Pages and Gitee Pages
 
 on:
   push:
@@ -50,3 +50,41 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  deploy-to-gitee:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run docs:build
+
+      - name: Move dist to root
+        run: mv .vitepress/dist dist || mkdir -p dist && cp -r .vitepress/dist/* dist/
+
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "actions@github.com"
+
+      - name: Deploy to Gitee
+        uses: yanglbme/gitee-pages-action@main
+        with:
+          gitee-username: guanyu
+          gitee-password: ${{ secrets.GITEE_PASSWORD }}
+          gitee-repo: cancanlala/cancanlala
+          branch: main
+          directory: dist
+          https: true
