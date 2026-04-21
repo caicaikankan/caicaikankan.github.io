@@ -29,6 +29,10 @@ export default defineConfig({
             {
               text: "工程思考｜Vibe Coding：不是AI写代码，是你在指挥一个工程系统",
               link: "/thinking/vibe-coding-engineering-system"
+            },
+            {
+              text: "从 Turbo C 到 AI IDE：我亲历的编程工具发展轨迹与时代焦虑",
+              link: "/thinking/turbo-c-to-ai-ide"
             }
           ]
         }
