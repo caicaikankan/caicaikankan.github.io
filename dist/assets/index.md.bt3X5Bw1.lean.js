@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as d,ae as n}from"./chunks/framework.Czhw_PXq.js";const m=JSON.parse('{"title":"我的学习博客","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),r={name:"index.md"};function i(o,t,s,_,h,c){return a(),d("div",null,[...t[0]||(t[0]=[n("",2)])])}const b=e(r,[["render",i]]);export{m as __pageData,b as default};
