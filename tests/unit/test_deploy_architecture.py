@@ -14,11 +14,12 @@ def test_vitepress_uses_default_output_directory() -> None:
     assert 'outDir: "../dist"' not in config
 
 
-def test_github_and_gitee_deploy_use_vitepress_dist() -> None:
+def test_github_pages_deploy_uses_vitepress_dist() -> None:
     workflow = read_repo_file(".github/workflows/deploy.yml")
 
     assert "path: .vitepress/dist" in workflow
-    assert "directory: .vitepress/dist" in workflow
+    assert "Deploy to GitHub Pages" in workflow
+    assert "Deploy to Gitee" not in workflow
     assert "Move dist to root" not in workflow
 
 

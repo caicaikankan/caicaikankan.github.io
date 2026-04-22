@@ -46,12 +46,9 @@
 
 1. 构建项目：`npm run docs:build`
 2. 提交更改：`git add . && git commit -m "添加新文章：[文章标题]"`
-3. 推送到远程仓库（同时推送到 GitHub 和 Gitee）：
-   - `git push origin main`（推送到 GitHub，触发 Pages 自动部署）
-   - `git push gitee main`（推送到 Gitee，仅保存代码，不开通 Pages）
-   - 如果推送失败（网络问题），请再次尝试
-   - 如果多次尝试后仍失败，请手动执行上述推送命令
-4. 等待 GitHub Actions 自动部署完成
+3. 推送到 GitHub：`git push origin main`
+4. 如果推送失败（网络问题），请再次尝试；如果多次仍失败，请手动重试推送命令
+5. 等待 GitHub Actions 自动部署完成
 
 ## 5. 示例
 
