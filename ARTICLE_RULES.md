@@ -5,7 +5,7 @@
 ## 1. 文章结构
 
 ### 1.1 标题
-- 一级标题（#）：文章主标题
+- 文章正文开头不再手写一级标题，标题由 frontmatter 的 `articleTitle` 统一渲染
 - 二级标题（##）：章节标题
 - 三级标题（###）：子章节标题
 
@@ -15,16 +15,30 @@
 - 代码块使用```包围
 - 列表使用 `-` 或 `1.` 标记
 
-### 1.3 结尾信息
-所有文章必须在结尾处添加以下信息（格式固定）：
+### 1.3 元信息
+所有文章必须在开头添加 frontmatter，至少包含以下字段：
 
-```
-作者：Yu ｜ YYYY-MM-DD ｜ 阅读时间约 X 分钟
+```yaml
+---
+articleTitle: 文章标题
+author: Yu
+publishDate: YYYY-MM-DD
+readingTime: X 分钟
+lastUpdated: YYYY-MM-DD
+cover: /covers/your-article-cover.svg
+---
 ```
 
 其中：
-- `YYYY-MM-DD` 为文章发布日期
-- `X` 为预计阅读时间（根据文章长度估算）
+- `publishDate` 为文章发布日期
+- `readingTime` 为预计阅读时间（根据文章长度估算）
+- `lastUpdated` 为最近更新时间
+- `cover` 为文章头图
+
+### 1.4 页首与页尾
+- 文章页统一显示为：标题 -> 头图 -> 作者/发布时间/阅读时间
+- 文章结尾信息由主题自动渲染为：作者 / 发布时间 / 最近更新
+- 不要在正文末尾手写重复的作者时间信息
 
 ## 2. 分类
 
@@ -53,7 +67,14 @@
 ## 5. 示例
 
 ```markdown
-# 文章标题
+---
+articleTitle: 文章标题
+author: Yu
+publishDate: 2026-04-01
+readingTime: 10 分钟
+lastUpdated: 2026-04-01
+cover: /covers/example.svg
+---
 
 文章内容...
 
@@ -64,8 +85,6 @@
 ### 子章节标题
 
 子章节内容...
-
-作者：Yu ｜ 2026-04-01 ｜ 阅读时间约 10 分钟
 ```
 
 请严格遵循以上规则，确保博客内容的一致性和专业性。

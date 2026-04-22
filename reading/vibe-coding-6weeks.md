@@ -1,6 +1,12 @@
-# Vibe Coding 六周全纪录：一个人，一支AI开发队伍
+---
+articleTitle: 共读笔记｜Vibe Coding 六周全纪录：一个人，一支AI开发队伍
+author: Yu
+publishDate: 2026-04-15
+readingTime: 10 分钟
+lastUpdated: 2026-04-15
+cover: /covers/vibe-coding-6weeks.svg
+---
 
-# 共读笔记｜Vibe Coding 六周全纪录：一个人，一支AI开发队伍
 和 AI 协作者一起拆解的过程记录。不是听书，是带着自己的问题去翻译。
 
 ---
@@ -119,11 +125,6 @@ Vibe Coding 不是一套技巧，是一种新的工作方式。
 
 不追求完美，先占坑，后面慢慢更新。
 这本身就是设计哲学。
-
-
-作者：Yu ｜ 2026-04-15 ｜ 阅读时间约 10 分钟
-
-
 
 
 

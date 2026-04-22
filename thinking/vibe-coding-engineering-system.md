@@ -1,4 +1,12 @@
-# 工程思考｜Vibe Coding：不是AI写代码，是你在指挥一个工程系统
+---
+articleTitle: 工程思考｜Vibe Coding：不是AI写代码，是你在指挥一个工程系统
+author: Yu
+publishDate: 2026-04-16
+readingTime: 8 分钟
+lastUpdated: 2026-04-16
+cover: /covers/vibe-coding-engineering-system.svg
+---
+
 做项目时长出来的想法和教训。Vibe Coding 是我目前在折腾的方向。
 
 ---
@@ -94,4 +102,3 @@ Vibe Coding 对我来说，不是一套课程。
 这本身就是设计哲学。
 
 
-作者：Yu ｜ 2026-04-16 ｜ 阅读时间约 8 分钟
