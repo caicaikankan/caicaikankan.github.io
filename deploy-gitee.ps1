@@ -5,11 +5,11 @@
 $giteeUsername = "cancanlala"
 $giteeRepo = "cancanlala"
 $branch = "main"
-$directory = "dist"
+$directory = ".vitepress/dist"
 
 Write-Host "开始部署到 Gitee Pages..." -ForegroundColor Green
 
-# 检查 dist 目录是否存在
+# 检查构建产物目录是否存在
 if (-not (Test-Path $directory)) {
     Write-Host "错误: $directory 目录不存在!" -ForegroundColor Red
     Write-Host "请先运行 'npm run docs:build' 构建项目" -ForegroundColor Yellow

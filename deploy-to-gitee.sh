@@ -8,11 +8,11 @@ set -e
 GITEE_USERNAME="cancanlala"
 GITEE_REPO="cancanlala"
 BRANCH="main"
-DIRECTORY="dist"
+DIRECTORY=".vitepress/dist"
 
 echo -e "\033[32m开始部署到 Gitee Pages...\033[0m"
 
-# 检查 dist 目录是否存在
+# 检查构建产物目录是否存在
 if [ ! -d "$DIRECTORY" ]; then
     echo -e "\033[31m错误: $DIRECTORY 目录不存在!\033[0m"
     echo -e "\033[33m请先运行 'npm run docs:build' 构建项目\033[0m"

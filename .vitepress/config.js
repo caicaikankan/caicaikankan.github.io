@@ -3,8 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "我的学习博客",
   base: "/",
-  siteUrl: "https://cancanlala.gitee.io",
-  outDir: "../dist",
+  siteUrl: "https://caicaikankan.github.io",
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
