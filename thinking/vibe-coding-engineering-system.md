@@ -4,7 +4,7 @@ author: Yu
 publishDate: 2026-04-16
 readingTime: 8 分钟
 lastUpdated: 2026-04-16
-cover: /covers/vibe-coding-engineering-system.svg
+cover: /covers/vibe-coding-engineering-system.jpg
 ---
 
 做项目时长出来的想法和教训。Vibe Coding 是我目前在折腾的方向。

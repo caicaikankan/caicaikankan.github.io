@@ -4,7 +4,7 @@ author: Yu
 publishDate: 2026-04-15
 readingTime: 10 分钟
 lastUpdated: 2026-04-15
-cover: /covers/vibe-coding-6weeks.svg
+cover: /covers/vibe-coding-6weeks.jpg
 ---
 
 和 AI 协作者一起拆解的过程记录。不是听书，是带着自己的问题去翻译。

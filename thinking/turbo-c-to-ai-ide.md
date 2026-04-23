@@ -4,7 +4,7 @@ author: Yu
 publishDate: 2026-04-18
 readingTime: 12 分钟
 lastUpdated: 2026-04-18
-cover: /covers/turbo-c-to-ai-ide.svg
+cover: /covers/turbo-c-to-ai-ide.jpg
 ---
 
 前几天刷到一篇文章，讲阿里云百炼 Coding Plan Lite 停售的事，心里咯噔一下。作者说，三个月前 8 块钱就能拿下的入门套餐，现在不仅涨价、缩额度，连续费都不让了。看着那些熟悉的名字 —— 火山方舟、智谱 GLM Coding Plan，突然就想起自己这十几年的编程路，从纯手写代码到 AI 一键生成，从为工具折腾到被工具解放，好像也不过是一场 "随手可得" 到 "物是人非" 的轮回。
